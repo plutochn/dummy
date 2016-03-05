@@ -1,0 +1,12 @@
+1. win10
+ 环境变量 PYTHON 设为 d:\Python27\python.exe
+
+2. ubuntu
+ sudo npm install -g memdb-server
+必须以root用户去执行
+
+Copy default config file from node_modules/memdb-server/memdb.conf.js to ~/.memdb/ (mkdir if not exist),
+ and modify it on your need. Please read comments carefully.
+
+3. start redis and mongodb
+4. memdbcluster start
