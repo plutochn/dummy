@@ -1,0 +1,4 @@
+[2016-03-14 17:11:50.850] [INFO] pomelo - [32m[/home/mercury/develop/dummy/ddz/ddzsvr/game-server/node_modules/pomelo/lib/application.js] [39mapplication inited: "connector-server-1"
+[2016-03-14 17:11:51.225] [INFO] pomelo - [32m[/home/mercury/develop/dummy/ddz/ddzsvr/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" enter after start...
+[2016-03-14 17:11:51.238] [INFO] pomelo - [32m[/home/mercury/develop/dummy/ddz/ddzsvr/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" finish start
+[2016-03-14 17:11:51.239] [INFO] pomelo - [32m[/home/mercury/develop/dummy/ddz/ddzsvr/game-server/node_modules/pomelo/lib/application.js] [39m"connector-server-1" startup in 279 ms

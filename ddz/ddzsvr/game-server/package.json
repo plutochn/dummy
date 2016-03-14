@@ -1,0 +1,9 @@
+{
+    "name":"ddzserver",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "pomelo":"rain1017/pomelo"
+    }
+}
+

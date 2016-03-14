@@ -1,0 +1,44 @@
+Mon Mar 14 16:00:31.185 [initandlisten] MongoDB starting : pid=6500 port=27017 dbpath=/home/mercury/develop/dummy/mongodb/data 32-bit host=mercury-VirtualBox
+Mon Mar 14 16:00:31.185 [initandlisten] 
+Mon Mar 14 16:00:31.185 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Mon Mar 14 16:00:31.186 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Mon Mar 14 16:00:31.186 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Mon Mar 14 16:00:31.186 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Mon Mar 14 16:00:31.186 [initandlisten] 
+Mon Mar 14 16:00:31.186 [initandlisten] db version v2.4.9
+Mon Mar 14 16:00:31.186 [initandlisten] git version: nogitversion
+Mon Mar 14 16:00:31.186 [initandlisten] build info: Linux comet 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 i686 BOOST_LIB_VERSION=1_54
+Mon Mar 14 16:00:31.186 [initandlisten] allocator: tcmalloc
+Mon Mar 14 16:00:31.186 [initandlisten] options: { config: "mongodb.conf", dbpath: "/home/mercury/develop/dummy/mongodb/data", fork: "yes", logpath: "/home/mercury/develop/dummy/mongodb/log/mongodb.log" }
+Mon Mar 14 16:00:31.213 [initandlisten] waiting for connections on port 27017
+Mon Mar 14 16:00:31.214 [websvr] admin web console waiting for connections on port 28017
+Mon Mar 14 16:01:06.687 [initandlisten] connection accepted from 127.0.0.1:45851 #1 (1 connection now open)
+Mon Mar 14 16:01:42.971 [conn1] end connection 127.0.0.1:45851 (0 connections now open)
+Mon Mar 14 16:01:59.974 [initandlisten] connection accepted from 127.0.0.1:45853 #2 (1 connection now open)
+Mon Mar 14 16:02:15.250 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/test.ns, filling with zeroes...
+Mon Mar 14 16:02:15.250 [FileAllocator] creating directory /home/mercury/develop/dummy/mongodb/data/_tmp
+Mon Mar 14 16:02:15.281 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/test.ns, size: 16MB,  took 0.026 secs
+Mon Mar 14 16:02:15.281 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/test.0, filling with zeroes...
+Mon Mar 14 16:02:15.283 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/test.0, size: 16MB,  took 0.001 secs
+Mon Mar 14 16:02:15.284 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/test.1, filling with zeroes...
+Mon Mar 14 16:02:15.285 [conn2] build index test.account { _id: 1 }
+Mon Mar 14 16:02:15.286 [conn2] build index done.  scanned 0 total records. 0 secs
+Mon Mar 14 16:02:15.288 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/test.1, size: 32MB,  took 0.003 secs
+Mon Mar 14 16:02:25.246 [conn2] end connection 127.0.0.1:45853 (0 connections now open)
+Mon Mar 14 16:02:27.027 [initandlisten] connection accepted from 127.0.0.1:45854 #3 (1 connection now open)
+Mon Mar 14 16:02:37.647 [conn3] end connection 127.0.0.1:45854 (0 connections now open)
+Mon Mar 14 16:02:47.877 [initandlisten] connection accepted from 127.0.0.1:45855 #4 (1 connection now open)
+Mon Mar 14 16:04:34.174 [conn4] terminating, shutdown command received
+Mon Mar 14 16:04:34.174 dbexit: shutdown called
+Mon Mar 14 16:04:34.174 [conn4] shutdown: going to close listening sockets...
+Mon Mar 14 16:04:34.174 [conn4] closing listening socket: 7
+Mon Mar 14 16:04:34.174 [conn4] closing listening socket: 8
+Mon Mar 14 16:04:34.174 [conn4] closing listening socket: 9
+Mon Mar 14 16:04:34.174 [conn4] removing socket file: /tmp/mongodb-27017.sock
+Mon Mar 14 16:04:34.174 [conn4] shutdown: going to flush diaglog...
+Mon Mar 14 16:04:34.174 [conn4] shutdown: going to close sockets...
+Mon Mar 14 16:04:34.174 [conn4] shutdown: waiting for fs preallocator...
+Mon Mar 14 16:04:34.174 [conn4] shutdown: closing all files...
+Mon Mar 14 16:04:34.174 [conn4] closeAllFiles() finished
+Mon Mar 14 16:04:34.175 [conn4] shutdown: removing fs lock...
+Mon Mar 14 16:04:34.175 dbexit: really exiting now

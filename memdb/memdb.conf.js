@@ -30,7 +30,7 @@ module.exports = {
     // Global backend storage, all shards must connect to the same mongodb (or mongodb cluster)
     backend : {
         engine : 'mongodb', // should be 'mongodb'
-        url : 'mongodb://localhost/memdb', // mongodb connect string
+        url : 'mongodb://localhost/bhddz', // mongodb connect string
     },
 
     // Global locking redis, all shards must connect to the same redis (or redis cluster)
