@@ -1,0 +1,16 @@
+{
+  "name": "test_memdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_mdbgoose.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kerberos": "0.0.19",
+    "memdb-client": "^0.5.7",
+    "mongoose": "^4.4.7"
+  }
+}
