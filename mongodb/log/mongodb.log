@@ -1,113 +1,38 @@
-Mon Mar 14 16:04:51.774 [initandlisten] MongoDB starting : pid=6549 port=27017 dbpath=/home/mercury/develop/dummy/mongodb/data 32-bit host=mercury-VirtualBox
-Mon Mar 14 16:04:51.774 [initandlisten] 
-Mon Mar 14 16:04:51.774 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
-Mon Mar 14 16:04:51.774 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
-Mon Mar 14 16:04:51.774 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
-Mon Mar 14 16:04:51.774 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
-Mon Mar 14 16:04:51.774 [initandlisten] 
-Mon Mar 14 16:04:51.774 [initandlisten] db version v2.4.9
-Mon Mar 14 16:04:51.774 [initandlisten] git version: nogitversion
-Mon Mar 14 16:04:51.774 [initandlisten] build info: Linux comet 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 i686 BOOST_LIB_VERSION=1_54
-Mon Mar 14 16:04:51.774 [initandlisten] allocator: tcmalloc
-Mon Mar 14 16:04:51.774 [initandlisten] options: { config: "mongodb.conf", dbpath: "/home/mercury/develop/dummy/mongodb/data", fork: "yes", logpath: "/home/mercury/develop/dummy/mongodb/log/mongodb.log" }
-Mon Mar 14 16:04:51.785 [initandlisten] waiting for connections on port 27017
-Mon Mar 14 16:04:51.785 [websvr] admin web console waiting for connections on port 28017
-Mon Mar 14 16:04:55.351 [initandlisten] connection accepted from 127.0.0.1:45857 #1 (1 connection now open)
-Mon Mar 14 16:05:34.190 [conn1] end connection 127.0.0.1:45857 (0 connections now open)
-Mon Mar 14 16:08:56.322 [initandlisten] connection accepted from 127.0.0.1:45860 #2 (1 connection now open)
-Mon Mar 14 16:08:56.328 [initandlisten] connection accepted from 127.0.0.1:45861 #3 (2 connections now open)
-Mon Mar 14 16:08:56.334 [conn2] end connection 127.0.0.1:45860 (1 connection now open)
-Mon Mar 14 16:08:56.340 [initandlisten] connection accepted from 127.0.0.1:45862 #4 (2 connections now open)
-Mon Mar 14 16:08:56.342 [conn4] end connection 127.0.0.1:45862 (1 connection now open)
-Mon Mar 14 16:08:56.342 [conn3] end connection 127.0.0.1:45861 (0 connections now open)
-Mon Mar 14 16:08:56.346 [initandlisten] connection accepted from 127.0.0.1:45863 #5 (1 connection now open)
-Mon Mar 14 16:08:56.347 [initandlisten] connection accepted from 127.0.0.1:45864 #6 (2 connections now open)
-Mon Mar 14 16:08:56.349 [conn5] end connection 127.0.0.1:45863 (1 connection now open)
-Mon Mar 14 16:08:56.350 [conn6] end connection 127.0.0.1:45864 (0 connections now open)
-Mon Mar 14 16:08:56.352 [initandlisten] connection accepted from 127.0.0.1:45865 #7 (1 connection now open)
-Mon Mar 14 16:08:56.352 [initandlisten] connection accepted from 127.0.0.1:45866 #8 (2 connections now open)
-Mon Mar 14 16:08:56.354 [initandlisten] connection accepted from 127.0.0.1:45867 #9 (3 connections now open)
-Mon Mar 14 16:08:56.354 [initandlisten] connection accepted from 127.0.0.1:45868 #10 (4 connections now open)
-Mon Mar 14 16:08:56.354 [initandlisten] connection accepted from 127.0.0.1:45869 #11 (5 connections now open)
-Mon Mar 14 16:08:56.355 [conn11] end connection 127.0.0.1:45869 (4 connections now open)
-Mon Mar 14 16:08:56.356 [initandlisten] connection accepted from 127.0.0.1:45870 #12 (5 connections now open)
-Mon Mar 14 16:08:56.359 [initandlisten] connection accepted from 127.0.0.1:45872 #13 (6 connections now open)
-Mon Mar 14 16:08:56.360 [initandlisten] connection accepted from 127.0.0.1:45873 #14 (7 connections now open)
-Mon Mar 14 16:08:56.361 [initandlisten] connection accepted from 127.0.0.1:45874 #15 (8 connections now open)
-Mon Mar 14 16:08:56.362 [initandlisten] connection accepted from 127.0.0.1:45875 #16 (9 connections now open)
-Mon Mar 14 16:08:56.363 [initandlisten] connection accepted from 127.0.0.1:45876 #17 (10 connections now open)
-Mon Mar 14 16:22:50.949 [initandlisten] connection accepted from 127.0.0.1:45880 #18 (11 connections now open)
-Mon Mar 14 16:23:02.170 [conn18] end connection 127.0.0.1:45880 (10 connections now open)
-Mon Mar 14 16:24:40.592 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/bhddz.ns, filling with zeroes...
-Mon Mar 14 16:24:40.592 [FileAllocator] creating directory /home/mercury/develop/dummy/mongodb/data/_tmp
-Mon Mar 14 16:24:40.611 [conn13] end connection 127.0.0.1:45872 (9 connections now open)
-Mon Mar 14 16:24:40.612 [conn14] end connection 127.0.0.1:45873 (8 connections now open)
-Mon Mar 14 16:24:40.612 [conn15] end connection 127.0.0.1:45874 (7 connections now open)
-Mon Mar 14 16:24:40.612 [conn16] end connection 127.0.0.1:45875 (6 connections now open)
-Mon Mar 14 16:24:40.612 [conn17] end connection 127.0.0.1:45876 (5 connections now open)
-Mon Mar 14 16:24:40.618 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/bhddz.ns, size: 16MB,  took 0.02 secs
-Mon Mar 14 16:24:40.618 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/bhddz.0, filling with zeroes...
-Mon Mar 14 16:24:40.632 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/bhddz.0, size: 16MB,  took 0.013 secs
-Mon Mar 14 16:24:40.633 [conn12] build index bhddz.player { _id: 1 }
-Mon Mar 14 16:24:40.633 [conn12] build index done.  scanned 0 total records. 0 secs
-Mon Mar 14 16:24:40.636 [FileAllocator] allocating new datafile /home/mercury/develop/dummy/mongodb/data/bhddz.1, filling with zeroes...
-Mon Mar 14 16:24:40.640 [FileAllocator] done allocating datafile /home/mercury/develop/dummy/mongodb/data/bhddz.1, size: 32MB,  took 0.004 secs
-Mon Mar 14 16:24:40.641 [conn7] end connection 127.0.0.1:45865 (4 connections now open)
-Mon Mar 14 16:24:40.642 [conn8] end connection 127.0.0.1:45866 (3 connections now open)
-Mon Mar 14 16:24:40.643 [conn9] end connection 127.0.0.1:45867 (2 connections now open)
-Mon Mar 14 16:24:40.643 [conn10] end connection 127.0.0.1:45868 (1 connection now open)
-Mon Mar 14 16:24:40.643 [conn12] end connection 127.0.0.1:45870 (0 connections now open)
-Mon Mar 14 16:25:15.862 [initandlisten] connection accepted from 127.0.0.1:45901 #19 (1 connection now open)
-Mon Mar 14 16:25:15.874 [conn19] end connection 127.0.0.1:45901 (0 connections now open)
-Mon Mar 14 16:25:15.877 [initandlisten] connection accepted from 127.0.0.1:45902 #20 (1 connection now open)
-Mon Mar 14 16:25:15.880 [initandlisten] connection accepted from 127.0.0.1:45903 #21 (2 connections now open)
-Mon Mar 14 16:25:15.884 [conn21] end connection 127.0.0.1:45903 (1 connection now open)
-Mon Mar 14 16:25:15.891 [initandlisten] connection accepted from 127.0.0.1:45904 #22 (2 connections now open)
-Mon Mar 14 16:25:15.891 [conn22] end connection 127.0.0.1:45904 (1 connection now open)
-Mon Mar 14 16:25:15.892 [conn20] end connection 127.0.0.1:45902 (0 connections now open)
-Mon Mar 14 16:25:15.894 [initandlisten] connection accepted from 127.0.0.1:45905 #23 (1 connection now open)
-Mon Mar 14 16:25:15.894 [initandlisten] connection accepted from 127.0.0.1:45906 #24 (2 connections now open)
-Mon Mar 14 16:25:15.896 [initandlisten] connection accepted from 127.0.0.1:45907 #25 (3 connections now open)
-Mon Mar 14 16:25:15.896 [initandlisten] connection accepted from 127.0.0.1:45908 #26 (4 connections now open)
-Mon Mar 14 16:25:15.896 [initandlisten] connection accepted from 127.0.0.1:45909 #27 (5 connections now open)
-Mon Mar 14 16:25:15.898 [initandlisten] connection accepted from 127.0.0.1:45910 #28 (6 connections now open)
-Mon Mar 14 16:25:15.901 [conn27] end connection 127.0.0.1:45909 (5 connections now open)
-Mon Mar 14 16:25:15.912 [initandlisten] connection accepted from 127.0.0.1:45912 #29 (6 connections now open)
-Mon Mar 14 16:25:15.912 [conn29] end connection 127.0.0.1:45912 (5 connections now open)
-Mon Mar 14 16:25:15.915 [initandlisten] connection accepted from 127.0.0.1:45913 #30 (6 connections now open)
-Mon Mar 14 16:25:15.915 [initandlisten] connection accepted from 127.0.0.1:45914 #31 (7 connections now open)
-Mon Mar 14 16:25:15.918 [initandlisten] connection accepted from 127.0.0.1:45915 #32 (8 connections now open)
-Mon Mar 14 16:25:15.920 [initandlisten] connection accepted from 127.0.0.1:45916 #33 (9 connections now open)
-Mon Mar 14 16:25:15.920 [initandlisten] connection accepted from 127.0.0.1:45917 #34 (10 connections now open)
-Mon Mar 14 16:27:03.856 [conn23] end connection 127.0.0.1:45905 (9 connections now open)
-Mon Mar 14 16:27:03.856 [conn24] end connection 127.0.0.1:45906 (8 connections now open)
-Mon Mar 14 16:27:03.856 [conn25] end connection 127.0.0.1:45907 (7 connections now open)
-Mon Mar 14 16:27:03.857 [conn26] end connection 127.0.0.1:45908 (6 connections now open)
-Mon Mar 14 16:27:03.857 [conn28] end connection 127.0.0.1:45910 (5 connections now open)
-Mon Mar 14 16:27:03.875 [conn30] end connection 127.0.0.1:45913 (4 connections now open)
-Mon Mar 14 16:27:03.875 [conn31] end connection 127.0.0.1:45914 (3 connections now open)
-Mon Mar 14 16:27:03.875 [conn32] end connection 127.0.0.1:45915 (2 connections now open)
-Mon Mar 14 16:27:03.875 [conn33] end connection 127.0.0.1:45916 (1 connection now open)
-Mon Mar 14 16:27:03.875 [conn34] end connection 127.0.0.1:45917 (0 connections now open)
-Mon Mar 14 16:41:52.533 [initandlisten] connection accepted from 127.0.0.1:46210 #35 (1 connection now open)
-Mon Mar 14 16:41:52.537 [initandlisten] connection accepted from 127.0.0.1:46211 #36 (2 connections now open)
-Mon Mar 14 16:41:52.545 [conn35] end connection 127.0.0.1:46210 (1 connection now open)
-Mon Mar 14 16:41:52.548 [conn36] end connection 127.0.0.1:46211 (0 connections now open)
-Mon Mar 14 16:41:52.550 [initandlisten] connection accepted from 127.0.0.1:46212 #37 (1 connection now open)
-Mon Mar 14 16:41:52.553 [initandlisten] connection accepted from 127.0.0.1:46213 #38 (2 connections now open)
-Mon Mar 14 16:41:52.554 [conn37] end connection 127.0.0.1:46212 (1 connection now open)
-Mon Mar 14 16:41:52.557 [conn38] end connection 127.0.0.1:46213 (0 connections now open)
-Mon Mar 14 16:41:52.561 [initandlisten] connection accepted from 127.0.0.1:46214 #39 (1 connection now open)
-Mon Mar 14 16:41:52.562 [initandlisten] connection accepted from 127.0.0.1:46215 #40 (2 connections now open)
-Mon Mar 14 16:41:52.563 [conn40] end connection 127.0.0.1:46215 (1 connection now open)
-Mon Mar 14 16:41:52.563 [conn39] end connection 127.0.0.1:46214 (0 connections now open)
-Mon Mar 14 16:41:52.565 [initandlisten] connection accepted from 127.0.0.1:46216 #41 (1 connection now open)
-Mon Mar 14 16:41:52.565 [initandlisten] connection accepted from 127.0.0.1:46217 #42 (2 connections now open)
-Mon Mar 14 16:41:52.566 [initandlisten] connection accepted from 127.0.0.1:46218 #43 (3 connections now open)
-Mon Mar 14 16:41:52.566 [initandlisten] connection accepted from 127.0.0.1:46219 #44 (4 connections now open)
-Mon Mar 14 16:41:52.566 [initandlisten] connection accepted from 127.0.0.1:46220 #45 (5 connections now open)
-Mon Mar 14 16:41:52.567 [initandlisten] connection accepted from 127.0.0.1:46221 #46 (6 connections now open)
-Mon Mar 14 16:41:52.567 [initandlisten] connection accepted from 127.0.0.1:46222 #47 (7 connections now open)
-Mon Mar 14 16:41:52.568 [initandlisten] connection accepted from 127.0.0.1:46223 #48 (8 connections now open)
-Mon Mar 14 16:41:52.574 [initandlisten] connection accepted from 127.0.0.1:46224 #49 (9 connections now open)
-Mon Mar 14 16:41:52.577 [initandlisten] connection accepted from 127.0.0.1:46226 #50 (10 connections now open)
+Thu Mar 24 15:59:06.894 [initandlisten] MongoDB starting : pid=1978 port=27017 dbpath=/home/pluto/develop/dummy/mongodb/data 32-bit host=pluto-vm
+Thu Mar 24 15:59:06.894 [initandlisten] 
+Thu Mar 24 15:59:06.894 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Thu Mar 24 15:59:06.894 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Thu Mar 24 15:59:06.894 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Thu Mar 24 15:59:06.894 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Thu Mar 24 15:59:06.894 [initandlisten] 
+Thu Mar 24 15:59:06.894 [initandlisten] db version v2.4.9
+Thu Mar 24 15:59:06.894 [initandlisten] git version: nogitversion
+Thu Mar 24 15:59:06.894 [initandlisten] build info: Linux comet 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 i686 BOOST_LIB_VERSION=1_54
+Thu Mar 24 15:59:06.894 [initandlisten] allocator: tcmalloc
+Thu Mar 24 15:59:06.894 [initandlisten] options: { config: "../mongodb.conf", dbpath: "/home/pluto/develop/dummy/mongodb/data", fork: "yes", logpath: "/home/pluto/develop/dummy/mongodb/log/mongodb.log" }
+Thu Mar 24 15:59:06.902 [initandlisten] waiting for connections on port 27017
+Thu Mar 24 15:59:06.902 [websvr] admin web console waiting for connections on port 28017
+Thu Mar 24 15:59:09.447 [initandlisten] connection accepted from 127.0.0.1:37688 #1 (1 connection now open)
+Thu Mar 24 16:01:43.297 [FileAllocator] allocating new datafile /home/pluto/develop/dummy/mongodb/data/bwddz.ns, filling with zeroes...
+Thu Mar 24 16:01:43.297 [FileAllocator] creating directory /home/pluto/develop/dummy/mongodb/data/_tmp
+Thu Mar 24 16:01:43.303 [FileAllocator] done allocating datafile /home/pluto/develop/dummy/mongodb/data/bwddz.ns, size: 16MB,  took 0.002 secs
+Thu Mar 24 16:01:43.303 [FileAllocator] allocating new datafile /home/pluto/develop/dummy/mongodb/data/bwddz.0, filling with zeroes...
+Thu Mar 24 16:01:43.352 [FileAllocator] done allocating datafile /home/pluto/develop/dummy/mongodb/data/bwddz.0, size: 16MB,  took 0.048 secs
+Thu Mar 24 16:01:43.354 [FileAllocator] allocating new datafile /home/pluto/develop/dummy/mongodb/data/bwddz.1, filling with zeroes...
+Thu Mar 24 16:01:43.354 [conn1] build index bwddz.account { _id: 1 }
+Thu Mar 24 16:01:43.355 [conn1] build index done.  scanned 0 total records. 0 secs
+Thu Mar 24 16:01:43.492 [FileAllocator] done allocating datafile /home/pluto/develop/dummy/mongodb/data/bwddz.1, size: 32MB,  took 0.138 secs
+Thu Mar 24 16:02:20.716 [conn1] terminating, shutdown command received
+Thu Mar 24 16:02:20.716 dbexit: shutdown called
+Thu Mar 24 16:02:20.716 [conn1] shutdown: going to close listening sockets...
+Thu Mar 24 16:02:20.716 [conn1] closing listening socket: 7
+Thu Mar 24 16:02:20.716 [conn1] closing listening socket: 8
+Thu Mar 24 16:02:20.716 [conn1] closing listening socket: 9
+Thu Mar 24 16:02:20.716 [conn1] removing socket file: /tmp/mongodb-27017.sock
+Thu Mar 24 16:02:20.716 [conn1] shutdown: going to flush diaglog...
+Thu Mar 24 16:02:20.716 [conn1] shutdown: going to close sockets...
+Thu Mar 24 16:02:20.717 [conn1] shutdown: waiting for fs preallocator...
+Thu Mar 24 16:02:20.717 [conn1] shutdown: closing all files...
+Thu Mar 24 16:02:20.717 [conn1] closeAllFiles() finished
+Thu Mar 24 16:02:20.718 [conn1] shutdown: removing fs lock...
+Thu Mar 24 16:02:20.718 dbexit: really exiting now

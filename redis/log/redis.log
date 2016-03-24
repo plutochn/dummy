@@ -1,0 +1,66 @@
+7345:M 24 Mar 15:20:03.246 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+7345:M 24 Mar 15:20:03.246 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+7345:M 24 Mar 15:20:03.246 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+7345:M 24 Mar 15:20:03.247 # Warning: 32 bit instance detected but no memory limit set. Setting 3 GB maxmemory limit with 'noeviction' policy now.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (00000000/0) 32 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 7345
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+7345:M 24 Mar 15:20:03.249 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+7345:M 24 Mar 15:20:03.249 # Server started, Redis version 3.0.7
+7345:M 24 Mar 15:20:03.249 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+7345:M 24 Mar 15:20:03.249 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+7345:M 24 Mar 15:20:03.249 * The server is now ready to accept connections on port 6379
+7345:M 24 Mar 15:23:10.274 # User requested shutdown...
+7345:M 24 Mar 15:23:10.275 * Saving the final RDB snapshot before exiting.
+7345:M 24 Mar 15:23:10.281 * DB saved on disk
+7345:M 24 Mar 15:23:10.281 * Removing the pid file.
+7345:M 24 Mar 15:23:10.281 # Redis is now ready to exit, bye bye...
+7376:M 24 Mar 15:23:47.286 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+7376:M 24 Mar 15:23:47.286 # Redis can't set maximum open files to 10032 because of OS error: Operation not permitted.
+7376:M 24 Mar 15:23:47.287 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+7376:M 24 Mar 15:23:47.287 # Warning: 32 bit instance detected but no memory limit set. Setting 3 GB maxmemory limit with 'noeviction' policy now.
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.0.7 (00000000/0) 32 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 7376
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+7376:M 24 Mar 15:23:47.288 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+7376:M 24 Mar 15:23:47.288 # Server started, Redis version 3.0.7
+7376:M 24 Mar 15:23:47.288 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+7376:M 24 Mar 15:23:47.288 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+7376:M 24 Mar 15:23:47.288 * DB loaded from disk: 0.000 seconds
+7376:M 24 Mar 15:23:47.288 * The server is now ready to accept connections on port 6379
+7376:signal-handler (1458804299) Received SIGTERM scheduling shutdown...
+7376:M 24 Mar 15:24:59.427 # User requested shutdown...
+7376:M 24 Mar 15:24:59.427 * Saving the final RDB snapshot before exiting.
+7376:M 24 Mar 15:24:59.434 * DB saved on disk
+7376:M 24 Mar 15:24:59.434 * Removing the pid file.
+7376:M 24 Mar 15:24:59.434 # Redis is now ready to exit, bye bye...

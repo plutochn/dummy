@@ -1,0 +1,25 @@
+Thu Mar 24 15:48:01.632 [initandlisten] MongoDB starting : pid=1890 port=27017 dbpath=/home/pluto/develop/dummy/mongodb/data 32-bit host=pluto-vm
+Thu Mar 24 15:48:01.632 [initandlisten] 
+Thu Mar 24 15:48:01.632 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Thu Mar 24 15:48:01.632 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Thu Mar 24 15:48:01.632 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Thu Mar 24 15:48:01.632 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Thu Mar 24 15:48:01.632 [initandlisten] 
+Thu Mar 24 15:48:01.632 [initandlisten] db version v2.4.9
+Thu Mar 24 15:48:01.632 [initandlisten] git version: nogitversion
+Thu Mar 24 15:48:01.632 [initandlisten] build info: Linux comet 3.2.0-58-generic #88-Ubuntu SMP Tue Dec 3 17:37:58 UTC 2013 i686 BOOST_LIB_VERSION=1_54
+Thu Mar 24 15:48:01.632 [initandlisten] allocator: tcmalloc
+Thu Mar 24 15:48:01.632 [initandlisten] options: { config: "../mongodb.conf", dbpath: "/home/pluto/develop/dummy/mongodb/data", fork: "yes", logpath: "/home/pluto/develop/dummy/mongodb/log/mongodb.log" }
+************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+Thu Mar 24 15:48:01.633 [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+Thu Mar 24 15:48:01.633 dbexit: 
+Thu Mar 24 15:48:01.633 [initandlisten] shutdown: going to close listening sockets...
+Thu Mar 24 15:48:01.633 [initandlisten] shutdown: going to flush diaglog...
+Thu Mar 24 15:48:01.633 [initandlisten] shutdown: going to close sockets...
+Thu Mar 24 15:48:01.633 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Mar 24 15:48:01.633 [initandlisten] shutdown: closing all files...
+Thu Mar 24 15:48:01.633 [initandlisten] closeAllFiles() finished
+Thu Mar 24 15:48:01.633 dbexit: really exiting now
