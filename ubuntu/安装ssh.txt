@@ -1,2 +1,0 @@
-1. sudo apt-get install openssh-server
-2. sudo vi /etc/ssh/sshd_config
